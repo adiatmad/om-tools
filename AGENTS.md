@@ -30,3 +30,10 @@ Take the first option that fully works:
 Never cut: validation at trust boundaries, error handling that prevents data loss, security, accessibility, the calibration real hardware needs, anything the user asked for.
 
 (Yes, this file also applies to agents working on the ponytail repo itself. Especially to them.)
+
+
+## Additional installed engineering Skills
+
+The repository also contains selected Matt Pocock engineering Skills under `.agents/skills/`. Load and apply the relevant Skill when its task matches: `grill-with-docs` / `grilling` for clarifying a design; `to-spec` and `to-tickets` for substantial scoped work; `implement` and `tdd` for test-first implementation; `diagnosing-bugs` is not installed; `code-review` for review; `domain-modeling` and `codebase-design` for terminology and module design; `retro` for post-work environment improvements.
+
+These Skills complement, not replace, this repository's existing instructions, accepted specifications, and safety constraints. Preserve Spec Kit, Anti-Slop, Loop & Graph Engineering, and Ponytail. Where guidance overlaps, use the repository's explicit constraints and accepted spec; Ponytail's smallest-complete-change principle must never weaken tests, security, validation, or required verification. Invoke user-directed workflows only when requested; apply model-invoked guidance when relevant. If the active coding agent cannot load a Skill, follow its installed instructions where available and state the limitation rather than claiming it was invoked.
